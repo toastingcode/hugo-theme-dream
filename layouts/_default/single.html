@@ -52,7 +52,7 @@
             {{ .Date | time.Format "Monday, Jan 2, 2006" }}
           {{ end }}
 
-          | <span>{{ .ReadingTime }}{{ T "minuteRead" .ReadingTime }}</span>
+          | <span>{{ .ReadingTime }}{{ T "minuteRead" .ReadingTime }} ({{ .WordCount }} words)</span>
 
           {{ if ne .Params.nolastmod true }}
           | <span>{{ T "updatedAt" }}
