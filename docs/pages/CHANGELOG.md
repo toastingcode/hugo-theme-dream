@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [3.12.0] - 2025-04-09
+
+### Added
+
+- Highlight toc items when scrolling [#383](https://github.com/g1eny0ung/hugo-theme-dream/pull/383)
+
 ### Changed
 
 - Upgrade to tailwindcss v4 and daisyUI v5 [#374](https://github.com/g1eny0ung/hugo-theme-dream/pull/374)
