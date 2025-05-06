@@ -72,6 +72,12 @@
 
           {{ partial "share.html" . }}
         </div>
+        
+        {{ if site.Params.buyMeACoffee }}
+        <div class="flex w-full justify-start mt-6 mb-3">
+          <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="{{ site.Params.buyMeACoffee }}" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+        </div>
+        {{ end }}
       </header>
 
       <section id="dream-single-post-content" itemprop="articleBody">
